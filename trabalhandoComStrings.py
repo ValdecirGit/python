@@ -86,7 +86,7 @@ minha_string4 = "linha 1,\nlinha 2,\nlinha 3,\nlinha 4."
 print(minha_string4)  
 
 
-print("adicionando aspas no texto usando caracter de escape '\n' ... ")
+print("adicionando aspas no texto usando caracter de escape '\"' ... ")
 minha_string4 = "adicionando entre \"aspas\" no texto"
 print(minha_string4)  
 
