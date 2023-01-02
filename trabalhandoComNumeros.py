@@ -17,6 +17,7 @@ print(valor3)
 print(type(valor3))
 
 #Operadores Aritméticos
+#------------------------------------------------------------------
 print("soma 5 + 3.5 :")
 print(num1 + num2)
 print("subtração 5 - 3.5 :")
@@ -27,10 +28,45 @@ print("divisão 10 / 3 :")
 print(10 / 3)
 print("flordivision:")
 print(10 // 3)
-print("resto da divisão 5 / 3.5  mod:")
-print(num1 % num2)
+print("resto da divisão 10 / 3  mod:")
+print(10 % 3)
 print("exponenciação 3 elevado 3:")
 print(3 ** 3)
 
+#outros calculos 
+#------------------------------------------------------------------
+print('neste calculo, primeira multiplica depois soma')
+print(3 + 5 * 7 + 3)
+print('neste calculo, primeira soma o que tem dentro do parenteses depois multilplica')
+print((3 + 5) * (7 + 3))
 
+
+#funcoes
+#------------------------------------------------------------------
+
+#abosulto
+print("função abs (absoluto):")
+print(abs(-15))
+print("função pow (exponenciação):")
+print(pow(3,3))
+print("função max (numero maximo):")
+print(max(1,5,8,-7,-59))
+print("função min (numero minimo):")
+print(min(1,5,8,-7,-59))
+print("função round (arredondamento automatico pra cima ou baixo):")
+print(round(8.3))
+print("função round (arredondamento automatico pra cima ou baixo):")
+print(round(8.6))
+
+#outra biblioteca para arredondamento
+import math
+#------------------------------------------------------------------
+print('arredondamento para baixo')
+print(math.floor(8.9))
+print(math.floor(8.2))
+print('arredondamento para cima')
+print(math.ceil(8.9))
+print(math.ceil(8.000002))
+print('raiz quadrada')
+print(math.sqrt(9))
 
